@@ -5,7 +5,6 @@ header {
     background: rgb(28, 73, 73);
     width: 100%;
     position:absolute;
-    z-index: 2;
     box-shadow: 5px 5px 5px 5px;
 }
 .TopNav {
@@ -68,8 +67,7 @@ p {
     gap: 40px;
     max-width: 1200px;
     padding-left: 10%;
-    padding-top: 8%;
-    
+    padding-top: 3%;
 }
 .slider-izquierdo, .slider-derecho
 {
@@ -87,7 +85,7 @@ p {
 .slider-inicio img
 {
     width: 100%;
-    height: 500px;
+    height: 650px;
 }
 .content{
     padding-top: 10%;

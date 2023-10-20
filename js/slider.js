@@ -40,4 +40,4 @@ function MoverIzquierda()
 }
 SliderIzquierda.addEventListener("click", MoverIzquierda)
 //El set interval establece los intervalos de movimiento del slider usando la funcion MoverDerecha
-setInterval(MoverDerecha,2000);
+setInterval(MoverDerecha,2500);
