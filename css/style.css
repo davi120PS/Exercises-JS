@@ -1,8 +1,12 @@
+body{
+    background-color: rgb(59, 95, 95);
+}
 header {
-    background: rgb(59, 95, 95);
+    background: rgb(28, 73, 73);
     width: 100%;
     position:absolute;
     z-index: 2;
+    box-shadow: 5px 5px 5px 5px;
 }
 .TopNav {
     float: right;
@@ -30,8 +34,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: lightgray;
+    height: 65vh;
+    background-color: rgb(59, 95, 95);
 }
 .box {
     text-align: center;
@@ -85,14 +89,31 @@ p {
     width: 100%;
     height: 500px;
 }
-.calculadora
-{
-    padding-top: 15%;
-    padding-left: 40%;
+.content{
+    padding-top: 10%;
 }
-.botones
-{
-    padding-top:5px;
+.calculadora {
+    background-color: rgba(39, 254, 254, 0.213);
+    padding: 20px; /* Añade un relleno interior para separar el contenido de los bordes */
+    margin: 0 auto; /* Centra el elemento horizontalmente en la página */
+    width: 400px; /* Establece un ancho fijo para darle una forma rectangular */
+    border: 1px solid #47391f; /* Agrega un borde para definir mejor el área de la calculadora */
+    border-radius: 10px; /* Añade esquinas redondeadas para una apariencia más suave */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); /* Aplica una sombra para resaltar el elemento */
+}
+.inputs{
+    padding-left: 28%;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 100px;   
+    border-color: aquamarine;
+}
+.botones {
+    display: flex;
+    justify-content: space-around; /* Distribuye los botones equitativamente en el contenedor */
+    padding: 10px; /* Agrega un pequeño espacio entre los botones y el borde de la calculadora */
 }
 .textboxs{
     padding-left: 20%;

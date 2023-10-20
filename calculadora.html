@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/calculadora.js"></script>
-</head>
-<body>
-    <header>
-        <nav class="TopNav">
-          <ul>
-            <li><a href="Index.html">Botones</a></li>
-            <li><a href="Slider.html">Slider</a></li>
-            <li><a href="Calculadora.html">Calculadora</a></li>
-          </ul>
-        </nav>
-      </header>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/calculadora.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="TopNav">
+      <ul>
+        <li><a href="Index.html">Botones</a></li>
+        <li><a href="Slider.html">Slider</a></li>
+        <li><a href="Calculadora.html">Calculadora</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content">
     <div class="calculadora">
-        <h1>Calculadora</h1>  
-        <p>Por favor, introduce dos números:</p>  
+      <h1>Calculadora</h1>
+      <p>Por favor, introduce dos números:</p>
+      <div class="inputs">
         <input id="num1">
-        <p><p>  
-        <input id="num2">
-        <p id ="resultado"></p> 
-        <div class="botones">
-         <button type="button" onclick="Suma()">+</button>  
-         <button type="button" onclick="Resta()">-</button> 
-         <button type="button" onclick="Multiplicacion()">*</button>
-         <button type="button" onclick="Division()">÷</button>  
-         <button type="button" onclick="Limpiar()">CC</button>
-        </div>
-         
+        <p>
+        <p>
+          <input id="num2">
+        <p id="resultado"></p>
+      </div>
+      
+      <div class="botones">
+        <button type="button" onclick="Suma()">+</button>
+        <button type="button" onclick="Resta()">-</button>
+        <button type="button" onclick="Multiplicacion()">*</button>
+        <button type="button" onclick="Division()">÷</button>
+        <button type="button" onclick="Limpiar()">CC</button>
+      </div>
     </div>
+  </div>
 </body>
+
 </html>
