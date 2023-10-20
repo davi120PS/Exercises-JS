@@ -22,21 +22,13 @@
 <body class="contenido">
     <br><br><br><br><br><br>
     <h3>Presionar un boton para cambiar el color de fondo</h3>
-    <div class="container" id="colorBox"></div>
-      <div class="button-container">
-        <button class="color-button" onclick="cambiarColorC('red')">Rojo</button>
-        <button class="color-button" onclick="cambiarColorC('green')">Verde</button>
-        <button class="color-button" onclick="cambiarColorC('blue')">Azul</button>
+    <div class="container">
+        <div class="box">
+            <p id="text">Hola Mundo</p>
+            <button onclick="CambiarColor('blue', 'blue')">Azul</button>
+            <button onclick="CambiarColor('green', 'green')">Verde</button>
+            <button onclick="CambiarColor('red', 'red')">Rojo</button>
+        </div>
     </div>
-
-    <div class="container" id="Box">
-        <h5 id="Letras">Hola mundo</h5>
-    </div>
-      <div class="button-container">
-        <button class="color-button" onclick="cambiarColorL('red')">Rojo</button>
-        <button class="color-button" onclick="cambiarColorL('green')">Verde</button>
-        <button class="color-button" onclick="cambiarColorL('blue')">Azul</button>
-    </div>
-    
 </body>
 </html>

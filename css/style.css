@@ -27,15 +27,28 @@ header {
     border-bottom: rgb(190, 190, 190); 
 }
 .container {
-    width: 100px;
-    height: 100px;
-    background-color: lightgray;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
 }
-.container h5{
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+.box {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+p {
+    font-size: 24px;
+    color: black;
+}
+.contenido h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
 .button-container {
     margin-top: 20px;
 }
@@ -47,10 +60,12 @@ header {
 .contenedor-slider
 {
     display: flex;
-    align-items: center;
+    align-items:center;
     gap: 40px;
     max-width: 1200px;
-    padding: 0px 40px; 
+    padding-left: 10%;
+    padding-top: 8%;
+    
 }
 .slider-izquierdo, .slider-derecho
 {
@@ -68,6 +83,7 @@ header {
 .slider-inicio img
 {
     width: 100%;
+    height: 500px;
 }
 .calculadora
 {

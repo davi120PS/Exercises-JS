@@ -1,8 +1,6 @@
-function CambiarColor(color) 
-{
-    document.getElementById('colorBox').style.backgroundColor = color;
-}
-function cambiarColorL(color) 
-{
-    document.getElementById('Letras').style.color = color;
+function CambiarColor(fondo, texto) {
+    const box = document.querySelector(".container");
+    box.style.backgroundColor = fondo;
+    const textElement = document.getElementById("text");
+    textElement.style.color = texto;
 }
