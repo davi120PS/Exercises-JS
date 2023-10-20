@@ -26,13 +26,16 @@ header {
     color: rgb(190, 190, 190);
     border-bottom: rgb(190, 190, 190); 
 }
-/* .container {
-    width: 200px;
-    height: 200px;
+.container {
+    width: 100px;
+    height: 100px;
     background-color: lightgray;
     display: flex;
     justify-content: center;
-} */
+}
+.container h5{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
 .button-container {
     margin-top: 20px;
 }
@@ -75,7 +78,6 @@ header {
 {
     padding-top:5px;
 }
-
 .textboxs{
     padding-left: 20%;
 }
