@@ -1,3 +1,81 @@
+header {
+    background: rgb(59, 95, 95);
+    width: 100%;
+    position:absolute;
+    z-index: 2;
+}
+.TopNav {
+    float: right;
+    width: 35%;
+}
+
+.TopNav ul{
+    list-style: none;
+}
+
+.TopNav ul li {
+    display: inline-block;
+    padding: 3%;
+}
+
+.TopNav ul li a {
+    color: rgb(3, 2, 2);
+    font-size: large;
+}
+.TopNav ul li a:hover{
+    color: rgb(190, 190, 190);
+    border-bottom: rgb(190, 190, 190); 
+}
+/* .container {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+} */
+.button-container {
+    margin-top: 20px;
+}
+
+.color-button {
+    margin-right: 10px;
+}
+
+.contenedor-slider
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    padding: 0px 40px; 
+}
+.slider-izquierdo, .slider-derecho
+{
+    width: 5%;
+}
+.slider-izquierdo img, .slider-derecho img
+{
+    width: 100%;
+}
+.slider-inicio
+{
+    padding-top: 8%;
+    width: 90%;
+}
+.slider-inicio img
+{
+    width: 100%;
+}
+.calculadora
+{
+    padding-top: 15%;
+    padding-left: 40%;
+}
+.botones
+{
+    padding-top:5px;
+}
+
 .textboxs{
     padding-left: 20%;
 }
